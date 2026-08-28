@@ -247,7 +247,7 @@ exec i3-config-wizard
 # New Features
 
 
-bindsym Mod1+p exec /home/oli/python-ui/bin/python /home/oli/python-ui/launcher.py screenlight
+bindsym Mod1+p exec ~/.config/i3/scriptVenv/bin/python ~/.config/i3/scriptVenv/launcher.py brightness
 
 
 

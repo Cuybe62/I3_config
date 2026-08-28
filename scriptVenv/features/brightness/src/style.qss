@@ -1,0 +1,68 @@
+QDialog#brightnessDialog {
+  background-color: #20242b;
+}
+
+QDialog#brightnessDialog QLabel {
+  background: transparent;
+}
+
+QLabel#titleLabel {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0;
+}
+
+QLabel#subtitleLabel {
+  color: #9aa5b1;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+QLabel#valueLabel {
+  color: #90caf9;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 14px;
+}
+
+QPushButton#modeButton {
+  border-radius: 16px;
+  padding: 12px;
+  color: #ffffff;
+}
+
+QPushButton#modeButton:hover {
+  border-color: #64b5f6;
+}
+
+QPushButton#modeButton:pressed {
+  background-color: #1e4f70;
+}
+
+QSlider#brightnessSlider {
+  min-height: 34px;
+}
+
+QSlider#brightnessSlider::groove:horizontal {
+  height: 6px;
+  border-radius: 3px;
+}
+
+QSlider#brightnessSlider::sub-page:horizontal {
+  background-color: #42a5f5;
+  border-radius: 3px;
+}
+
+QSlider#brightnessSlider::handle:horizontal {
+  width: 18px;
+  height: 18px;
+  margin: -6px 0;
+  background-color: #90caf9;
+  border: 2px solid #20242b;
+  border-radius: 10px;
+}
+
+QSlider#brightnessSlider::handle:horizontal:hover {
+  background-color: #ffffff;
+}
