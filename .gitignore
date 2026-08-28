@@ -1,0 +1,6 @@
+python-ui/bin
+python-ui/lib
+python-ui/include
+python-ui/share
+python-ui/lib64
+python-ui/pyvenv.cfg
