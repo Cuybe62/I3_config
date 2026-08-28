@@ -1,0 +1,3 @@
+#!/bin/bash
+# Workspace 1 : brave + cmd 
+i3 -msg 'workspace "1:web
