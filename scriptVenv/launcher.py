@@ -7,7 +7,7 @@ from core.theme import apply_theme
 from features.brightness.feature import BrightnessFeature
 
 
-FEATURES = {"brightness": BrightnessFeature}
+FEATURES = {"brightness": BrightnessFeature, "clipboard": clipboardFeature}
 
 
 def main():
