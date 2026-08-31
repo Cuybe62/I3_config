@@ -1,3 +1,84 @@
 QWidget {
     font-family: "Noto Sans", "DejaVu Sans", sans-serif;
+    color: #cfe0c3;
+}
+
+QDialog#brightnessDialog {
+    background-color: #1f363d;
+}
+
+QLabel#titleLabel {
+    color: #cfe0c3;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+QLabel#subtitleLabel {
+    color: #9ec1a3;
+    font-size: 13px;
+}
+
+QLabel#valueLabel {
+    color: #cfe0c3;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+QPushButton#modeButton {
+    background-color: #40798c;
+    border: 2px solid #70a9a1;
+    border-radius: 12px;
+    color: #cfe0c3;
+}
+
+QPushButton#modeButton:hover {
+    background-color: #70a9a1;
+    border-color: #9ec1a3;
+}
+
+QPushButton#modeButton:pressed,
+QPushButton#modeButton:checked {
+    background-color: #9ec1a3;
+    border-color: #cfe0c3;
+    color: #1f363d;
+}
+
+QPushButton#modeButton:focus {
+    border-color: #cfe0c3;
+}
+
+QSlider#brightnessSlider::groove:horizontal {
+    height: 8px;
+    background-color: #40798c;
+    border-radius: 4px;
+}
+
+QSlider#brightnessSlider::sub-page:horizontal {
+    background-color: #70a9a1;
+    border-radius: 4px;
+}
+
+QSlider#brightnessSlider::add-page:horizontal {
+    background-color: #40798c;
+    border-radius: 4px;
+}
+
+QSlider#brightnessSlider::handle:horizontal {
+    width: 20px;
+    margin: -6px 0;
+    background-color: #cfe0c3;
+    border: 2px solid #9ec1a3;
+    border-radius: 10px;
+}
+
+QSlider#brightnessSlider::handle:horizontal:hover {
+    background-color: #9ec1a3;
+    border-color: #cfe0c3;
+}
+
+QToolTip {
+    color: #1f363d;
+    background-color: #cfe0c3;
+    border: 1px solid #70a9a1;
+    padding: 4px;
 }

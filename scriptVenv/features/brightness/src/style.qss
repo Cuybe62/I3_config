@@ -1,5 +1,5 @@
 QDialog#brightnessDialog {
-  background-color: #20242b;
+  background-color: rgba(32, 36, 43, 0.6);
 }
 
 QDialog#brightnessDialog QLabel {
